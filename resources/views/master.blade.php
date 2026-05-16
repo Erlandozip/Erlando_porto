@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('img/Profil.png') }}" alt="Logo" width="60"
-                    class="d-inline-block align-text-top">{{$nama}}</a>
+                    class="d-inline-block align-text-top">Elandooo</a>
         </div>
     </nav>
     <div class="text-center">

@@ -1,5 +1,5 @@
 @extends('master')
-@section('welcome')
+@section('konten')
 <div class="card">
   <img src="img/Profil.png" class="card-img-top" alt="...">
   <div class="card-body">
