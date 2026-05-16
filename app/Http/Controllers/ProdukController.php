@@ -1,16 +1,13 @@
 <?php
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
 use Illuminate\Http\Request;
-class  kontent extends Controller 
-{
-    public function index ()
-    {
+class  konten extends Controller {
+    public function index (){
         $nama = "Erlando";
-        return view('welcome', ('nama'));
+        return view('welcome', compact('nama'));
     }
-    public function index ()
-    {
+    public function konten (){
         $nama = "Erlando";
-        return view('welcome', ('nama'));
+        return view('konten', compact('nama'));
     }
 }

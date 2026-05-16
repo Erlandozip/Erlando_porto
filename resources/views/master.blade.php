@@ -15,11 +15,12 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('img/Profil.png') }}" alt="Logo" width="60" class="d-inline-block align-text-top">Bootstrap</a>
+                <img src="{{ asset('img/Profil.png') }}" alt="Logo" width="60"
+                    class="d-inline-block align-text-top">{{$nama}}</a>
         </div>
     </nav>
     <div class="text-center">
-        <img src="{{ asset('img/Profil.png') }}" class="rounded" alt="profil">
+        <img src="{{ asset('img/cat.webp') }}" class="rounded" alt="profil">
         <figure class="text-center">
             <blockquote class="blockquote">
                 <p>A well-known quote, contained in a blockquote element.</p>
@@ -29,9 +30,15 @@
             </figcaption>
         </figure>
     </div>
-    @yield('welcome')
-    @yield('konten')
+    <div>
+        @yield('welcome')
+    </div>
+    <div>
+        @yield('konten')
+    </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+</script>
 
 </html>
